@@ -9,7 +9,7 @@ print(mi_tuple[0]) #para cosultar los elementos de un tuple es igual que con las
 print(mi_tuple[-2]) # con numeros negativos se empieza a contar de derecha a izquierda, igual nuvamente que las listas
 
     #los taplues al igual que los string son inmutables por lo que no podemos cambiar un elemento que este dentro del tuples, para eso se tendria que crea una nueva variable
-    # por lo tanto este codigo: mi_tuple[0] = 5, indicaria un error, al querer asignar al elemento de índice o el número 5
+    # por, lo tanto este codigo: mi_tuple[0] = 5, indicaria un error, al querer asignar al elemento de índice o el número 5
 
     #ANIDAR TUPLES
 
@@ -34,8 +34,8 @@ print(y)
 
 taple2 = (1, 2, 3, 1)
 print(len(taple2)) # podemos usar len para conocer el largo o cantidad de elementos del tuple, asi como en listas y diccionarios
-print(taple2.count(1)) # para contar cuantas veces se encuntra ese elemento delntro del tuple
-print(taple2.index(2)) # para consusltar en que índice se encuentra un valor
+print(taple2.count(1)) # para contar cuantas veces se encuntra ese elemento dentro del tuple
+print(taple2.index(2)) # para consultar en que índice se encuentra un valor
 
     #Los tuples no son objetos de uso común peor es bueno conocerlos, ya que tiene su uso espefico como cuando no se quiere que cambie los valores, ya que son inmutables
 
