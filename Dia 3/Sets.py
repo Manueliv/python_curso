@@ -2,7 +2,7 @@ mi_set = set([1, 2, 3, 4, 5]) #primera forma de escribir un set la palabra set([
 print(type(mi_set))
 print(mi_set)
 
-otro_set = {1, 2, 3} #segunda forma de escribir un set usando llaves solamente {}
+otro_set = {1, 2, 3} #segunda forma de escribir un set usando llaves solamente {}, y más práctica
 print(type(otro_set))
 print(otro_set)
 
