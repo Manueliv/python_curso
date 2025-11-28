@@ -6,12 +6,12 @@ otro_set = {1, 2, 3} #segunda forma de escribir un set usando llaves solamente {
 print(type(otro_set))
 print(otro_set)
 
-    #los set no se pueden bucar elementos como en las listas o diccionarios
-    #Los set son elementos unicos por lo tanto no pueden tener repeticiones
+    #los sets no se pueden bucar elementos como en las listas o diccionarios
+    #Los sets son elementos unicos, por lo tanto, no pueden tener repeticiones
 
-#se se agregan elementos repetidos a set, simplemente se ignoran
+#se sets agregan elementos repetidos a set, simplemente se ignoran
 
-print(len(mi_set)) #en los set funciona la propiedad len, para saber la cantidad de elementos que contiene
+print(len(mi_set)) #en los sets funciona la propiedad len, para saber la cantidad de elementos que contiene
 
 print(2 in mi_set) # tanmbien la propiedad in, para saber si ese elemento esta drento del set, indicara un "True"
 
@@ -28,10 +28,10 @@ print(s1)
 
     #ELIMINAR ELEMENTOS DE UN SET
 
-s1.remove(3) # Con .remove elemianmos elementos del set, si intentamos eliminar elementos que no existes dara un error
+s1.remove(3) # Con remove elemianmos elementos del set, si intentamos eliminar elementos que no existes dara un error
 print(s1)
 
-s1.discard(6)  # con .discard también se eliminan elementos, con la diferencia que si no existen no da ningun error
+s1.discard(6)  # con discard también se eliminan elementos, con la diferencia que si no existen no da ningun error
 print(s1)
 
 s1.pop() #con por hay que tener cuidado, ya que eliminara un elemento aleatorio
@@ -46,7 +46,7 @@ print(sorteo) #con esto mostrará el número eliminaod aleatoramente
 
 print(s1) # volvemos a imprimir el set para revisar los elementos que han quedado despúes de uitilizar .pop
 
-s1.clear() #con .clear si se deja sin argumentos deja completamente vacio el set
+s1.clear() #con clear si se deja sin argumentos deja completamente vacio el set
 print(s1)
 
 
