@@ -2,19 +2,19 @@
 mi_lista = ["a", "b", "c"] #las listas en python van dentro de corchetes
 print(type(mi_lista))
 
-otra_lista = ['hola', 55, 6.1] #las listas en python puede conter diferentes tipos de elementos
+otra_lista = ['hola', 55, 6.1] #las listas en python pueden conter diferentes tipos de elementos
 print(type(otra_lista))
 
-resultado = len(mi_lista) #propiedad len, para contar el numero de elementos
+resultado = len(mi_lista) #propiedad len, para contar el número de elementos
 print(resultado)
 
-resultado_02 = mi_lista[0]# accedemos al indice cero de la lista, que seria la letra a
+resultado_02 = mi_lista[0]# accedemos al índice cero de la lista, que sería la letra a
 print(resultado_02)
 
-resultado_03 = mi_lista[0:2] #para ver el elemento desde indice cero hasta el 2 sin incluir este ultimo, por lo tanto seria indice 0 y 1 osea a y b respectivamente
+resultado_03 = mi_lista[0:2] #para ver el elemento desde índice cero hasta el 2 sin incluir este último, por lo tanto, sería índice 0 y 1 oséa a y b respectivamente
 print(resultado_03)
 
-resultado_04 = mi_lista[0:] #si no se pone nada dentro de los cortchetes dara invalid syntax, si ponemos cero y dos puntos (0:) mostrara todos los elementos de la lista
+resultado_04 = mi_lista[0:] #si no se pone nada dentro de los corchetes dara invalid syntax, si ponemos cero y dos puntos (0:) mostrará todos los elementos de la lista
 print(resultado_04)
 
     #CONCATENACION DE LISTAS
@@ -25,7 +25,7 @@ print(mi_lista + mi_lista2)
 print(mi_lista)
 print(mi_lista2)  #las listas principales siguen existiendo individualmente
 
-    # si quisieramos una sola lista con los elementos de las dos, tendriamos que crear una tercera variable y ahi indicar que serian los eleentos de las dos listas
+    # si quisieramos una sola lista con los elementos de las dos, tendriamos que crear una tercera variable y ahi indicar que serían los eleentos de las dos listas
 mi_lista3 = mi_lista + mi_lista2
 print(mi_lista3)
 
@@ -38,13 +38,13 @@ print(mi_lista3) #como resultado obtendremos que ahora el inice cero ya no es la
    #METODOS DE LAS LISTAS
     #AGREGAR ELEMENTOS A LAS LISTAS
 
-mi_lista3.append('g') # con el metodo append, agregamos elementos a las listas al final, aqui la lista de origen fue modificada sin necesidad de crear otra varible como con string
+mi_lista3.append('g') # con el metodo append, agregamos elementos a las listas al final, aquí la lista de origen fue modificada sin necesidad de crear otra varible como con string
 print(mi_lista3)
 
 mi_lista3.pop() #con el método pop si se deja sin parametro dentro de parentecis  inidicamos que se elimine el ultino elemento de la lista
 print(mi_lista3)
 
-mi_lista3.pop(0) #si dentro parentecis ponemos el indice, eliminamos el elemento repectivo
+mi_lista3.pop(0) #si dentro parentecis ponemos el índice, eliminamos el elemento repectivo
 print(mi_lista3)
 print(mi_lista3[0])
 print(mi_lista3[1])
