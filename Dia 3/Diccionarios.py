@@ -1,5 +1,5 @@
     #DICCIONARIOS
-diccionario = {'clave1':'valor1', 'clave2':'valor2'}
+diccionario = {'clave1':'valor1', 'clave2':'valor2'} #Los diccionarios se escriben entre llaves, y tiene la secuencia clave: y depúes de los dos puntos el valor asosiado a esa clave
 print(type(diccionario))
 print(diccionario)
 
@@ -9,8 +9,8 @@ resultado = diccionario['clave2']
 print(resultado)
 
 cliente = {'nombre':'Juan', 'apellido':'funtes', 'edad':25, 'altura':1.76}
-cosnsulta = cliente['apellido'], cliente['nombre']
-print(cosnsulta)
+consulta = cliente['apellido'], cliente['nombre']
+print(consulta)
 
 diccionario2 = {'clave1':55, 'clave2':[10, 20, 30], 'clave3':{'s1':100, 's2':200}}# no se puede repetir el nombre de una clave, lo marca con line amarilla y aunque funciona solo sale de una
 print(diccionario2)
@@ -25,7 +25,7 @@ print(diccionario2['clave3']) # con esto obtenemos el contenido que está en la 
 print(diccionario2['clave3']['s2'])
 
     #EJERCICIO
-    #de un diccionario que contiene dos claver, en la primera clave una lista las letras a, b, y c, y la segunda clave las letras d, e, y f.
+    #de un diccionario que contiene dos claves, en la primera clave una lista las letras a, b, y c, y la segunda clave las letras d, e, y f.
     #imprimir en pantalla la letra "e" en mayuscula (en una sola línea de código)
 diccionario3 = {'clave1':['a', 'b', 'c'], 'clave2':['d', 'e', 'f']}
 print(diccionario3['clave2'][1].upper())
