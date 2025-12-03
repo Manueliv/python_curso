@@ -1,4 +1,4 @@
-# formatear se llama cuando en un print utilizamos cadenas mas varias de dirente valor para mostrar
+# formatear se llama cuando en un print utilizamos cadenas más varias de diferente valor para mostrar
 color = "rojo"
 matricula = 742411
 

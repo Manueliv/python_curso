@@ -30,10 +30,10 @@ mi_lista3 = mi_lista + mi_lista2
 print(mi_lista3)
 
     #MODIFICACION DE LISTAS
-    #a diferencia de los string los elementos de las listas no son inmutables osea si se pueden modificar
+    #a diferencia de los string los elementos de las listas no son inmutables oséa si se pueden modificar
 
-mi_lista3[0] = 'alfa' #en la variable mi_lista3 accedemos al indice cero e indicamos que lo camiamor por alfa
-print(mi_lista3) #como resultado obtendremos que ahora el inice cero ya no es la letra 'a' si no la palabra 'alfa'
+mi_lista3[0] = 'alfa' #en la variable mi_lista3 accedemos al índice cero e indicamos que lo cambiamor por alfa
+print(mi_lista3) #como resultado obtendremos que ahora el inice cero ya no es la letra 'a' si, no la palabra 'alfa'
 
    #METODOS DE LAS LISTAS
     #AGREGAR ELEMENTOS A LAS LISTAS
@@ -44,7 +44,7 @@ print(mi_lista3)
 mi_lista3.pop() #con el método pop si se deja sin parametro dentro de parentecis  inidicamos que se elimine el ultino elemento de la lista
 print(mi_lista3)
 
-mi_lista3.pop(0) #si dentro parentecis ponemos el índice, eliminamos el elemento repectivo
+mi_lista3.pop(0) #si dentro parentesis ponemos el índice, eliminamos el elemento repectivo
 print(mi_lista3)
 print(mi_lista3[0])
 print(mi_lista3[1])
@@ -59,7 +59,7 @@ print(eliminado)
     #El métod sort sirve para ordenar los elementos de una lista
 
 lista = ['g', 'o', 'b', 'm', 'c']
-lista.sort() # sin parametros dentro del parentecis ordena en orden alfabetico las letras y palabras y en orden ascendete si fueran números
+lista.sort() # sin parametros dentro del parentecis ordena en orden alfabetico las letras y palabras y en orden ascendente si fueran números
 print(lista)
 
     #sort no devuelve nada, por lo que diferencia de otros métods no los podemos utilizar en una variable, osea no se podria: varivable = lista.sort()

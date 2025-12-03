@@ -13,7 +13,7 @@ print(otro_set)
 
 print(len(mi_set)) #en los sets funciona la propiedad len, para saber la cantidad de elementos que contiene
 
-print(2 in mi_set) # tanmbien la propiedad in, para saber si ese elemento esta drento del set, indicara un "True"
+print(2 in mi_set) # tanmbien la propiedad in, para saber si ese elemento está dentro del set, indicará un "True"
 
     #UNION DE SETS
 
