@@ -1,0 +1,10 @@
+lista = ['a','b','c', 'd']
+
+for letra in lista:
+    print("letra: " + letra)
+
+
+#Iterar por medio de su indice
+for letra in lista:
+    numero_letra = lista.index(letra) + 1
+    print(f"Letra {numero_letra}: {letra}")

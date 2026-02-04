@@ -1,4 +1,4 @@
-if 10 > 9: #Con if se evalua si lo qye esta es true o False, si es true ejecuta el código siguiente
+if 10 > 9: #Con if se evalua si lo que esta es true o False, si es true ejecuta el código siguiente
     print("Es correcto")
 
 

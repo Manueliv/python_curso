@@ -1,4 +1,4 @@
-    #en Python al iguak que en otros lenguajes de programación tenemos los operadores lógicos (and, or, y not)
+    #en Python al igual que en otros lenguajes de programación tenemos los operadores lógicos (and, or, y not)
 
 mi_bool = 4 < 5 < 6 # podemos utilizar los operadores de comparación, pero cuando hacemos evaluaciones más complejas es más conveniente usar los operadores lógicos
 print(mi_bool)
